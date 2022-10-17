@@ -13,7 +13,6 @@ public class Spiess {
         StdDraw.line (10, 0, 90, 0);
         StdDraw.setPenColor(Color.RED);
         //StdDraw.square()
-
-
+flo is halt einfach geil!
     }
 }
