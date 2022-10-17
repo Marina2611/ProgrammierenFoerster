@@ -10,9 +10,13 @@ public class Spiess {
         StdDraw.setXscale (0, 100);
         StdDraw.setYscale (0, 100);
         StdDraw.point(0, 0);
-        StdDraw.line (10, 0, 90, 0);
+        StdDraw.line (50, 0, 50, 100);
         StdDraw.setPenColor(Color.RED);
-        //StdDraw.square()
-flo is halt einfach geil!
+        StdDraw.square(50, 15, 10);
+        StdDraw.square(50, 60, 10);
+        StdDraw.setPenColor(Color.yellow);
+        StdDraw.circle(50,37,10);
+        StdDraw.circle(50,37,10);
+
     }
 }
