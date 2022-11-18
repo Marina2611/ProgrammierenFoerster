@@ -3,15 +3,16 @@ package uebungsblatt4;
 import edu.princeton.cs.introcs.StdOut;
 
 public class StarPrinter {
-    static void printStars(int anzahl) {
-        printChar(anzahl, '*');
+    public static void printStars(int anzahl) {
+        printString(anzahl, "*");
     }
 
-    static void printSpace(int anzahl) {
-        printChar(anzahl, ' ');
+    public static void printSpace(int anzahl) {
+        printString(anzahl, " ");
     }
 
-    private static void printChar(int anzahl, char character) {
+
+    public static void printString(int anzahl, String character) {
         for (int aktuelleAnzahl = 1; aktuelleAnzahl <= anzahl; aktuelleAnzahl++) {
             StdOut.print(character);
         }
